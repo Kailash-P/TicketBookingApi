@@ -31,7 +31,7 @@ create table if not exists public.movie (
 	name varchar(50) not null,
 	genre_id int not null, -- considered as enum in code (since it has only less items)
 	language_id int not null, -- considered as enum in code (since it has only less items)
-	multiplex_id int not null, -- considered as enum in code (since it has only less items)
+	multiplex_id int not null, 
     constraint fk_movie_multiplex_id foreign key (multiplex_id) references public.multiplex (id)
 );
 
