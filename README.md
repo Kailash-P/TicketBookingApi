@@ -24,7 +24,7 @@ Code-First Approach has been followed.
 
 # Authorization/Authentication
 
-The authorization & authentication have been achieved using Azure Active Directory & OAuth2.0
+The role-based authorization & authentication have been achieved using Azure Active Directory Domain User & OAuth2.0.
 
 # Unit Test
 
